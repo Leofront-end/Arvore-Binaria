@@ -1,4 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(0, 89, 255);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.562);
+}
+
+main {
+    height: calc(100vh - 47px);
+    background: #0044ff6b url(./img/boneca-de-pano-com-uma-lupa-gigante.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pergunta {
+    background-color: rgba(0, 4, 255, 0.164);
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: #000000;
+    text-align: center;
+}
+
+.destaque {color: #1900ff; font-weight: bolder;}
+
+section > h3 {
+    margin: 10px;
+    color: #1100ff;
+}
+
+button {
+    background: #ffffff;
+    width: 30%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 0px #00000077;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+button:hover {
+    color: #ffffff;
+    background: #1100ff;
+}
+
+.resposta {
+    border-radius: 5px;
+    background: #ffffff;
+    backdrop-filter: blur(10px);
+    padding: 5px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+li {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+}
+
 .ativo {
-    background-color: aqua;
-    margin: 2px;
+    color: #ffffff;
+    background-color: #1100ff;
+    font-weight: bolder;
 }
